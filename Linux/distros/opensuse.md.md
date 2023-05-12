@@ -1,3 +1,9 @@
+---
+title: Opensuse 15.1
+date: 2023-05-12
+tags: [opensuse, linux, distro, snippet]
+---
+
 # Opensuse 15.1
 ---
 
@@ -8,57 +14,57 @@
 ---
 
 
-## Update package manager
+#### Update package manager
 ```bash
 sudo zypper up
 ```
 
-## Search package
+#### Search package
 ```bash
 sudo zypper search "PackageName"
 ```
 
-## Install package
+#### Install package
 ```bash
 sudo zypper in "Packagename"
 ```
 
-## Enabling application on server boot
+#### Enabling application on server boot
 ```bash
 sudo systemctl enable "PackageName"
 ```
 
-## Starting the application
+#### Starting the application
 ```bash
 sudo systemctl start "PackageName"
 ```
 
-## Checking application status
+#### Checking application status
 ```bash
 sudo systemctl status "PackageName"
 ```
 
-## Restarting the application
+#### Restarting the application
 ```bash
 sudo systemctl restart "PackageName"
 ```
 
-## Installing PHP
+#### Installing PHP
 ```bash
 sudo zypper in php7 php7-mysql php7-fpm php7-gd php7-mbstring php7-bcmath php7-zip php7-ldap php7-pdo
 ```
 
-## Official repository of PHP 7.4
+#### Official repository of PHP 7.4
 ```bash
 sudo zypper ar http://download.opensuse.org/repositories/devel:/languages:/php/openSUSE_Leap_15.1/ php
 ```
 
-## Set repository priority
+#### Set repository priority
 ```bash
 sudo zypper mr -p 70 php
 ```
 
-## Refresh repository
+#### Refresh repository
 ```bash
 sudo zypper refresh
 ```
