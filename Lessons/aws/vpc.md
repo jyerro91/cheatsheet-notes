@@ -1,4 +1,4 @@
-# AWS - VPC
+# VPC
 
 ### VPC and AWS Region
 

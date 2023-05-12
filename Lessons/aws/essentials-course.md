@@ -1,11 +1,11 @@
+# AWS Essentials 
 
-
-## VPC
+## [[vpc]]
 
 ### Internet Gateways (IGW)
 A combination of hardware and software that provides your private network with a route to outside world (meaning the internet) of the VPC
 
-##### AWS Definition:
+##### [[aws]] Definition:
 
 An internet gateway is a horizontally scaled, redundant and highly available VPC component that allows communication between instances in your VPC and the internet. Therefore imposes no availability risks or bandwidth constraints on your network traffic.
 

@@ -1,5 +1,36 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "a4f50061-2e8e-4e87-bd2c-1943c9b5a948",
+      "name": "linux-snippet",
+      "type": "Template",
+      "command": true,
+      "templatePath": "_templates/snippet-template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "linux"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
   "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,

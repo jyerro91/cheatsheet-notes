@@ -11,13 +11,13 @@ AWK (awk) is a domain-specific language designed for text processing and typical
 
 ## Usage
 
-### Unix/Linux
+#### Unix/Linux
 
 ```bash
 awk '/pattern/ {print "$1"}'    # standard Unix shells
 ```
 
-### DOS/Win
+#### DOS/Win
 
 ```bash
 awk '/pattern/ {print "$1"}'    # compiled with DJGPP, Cygwin

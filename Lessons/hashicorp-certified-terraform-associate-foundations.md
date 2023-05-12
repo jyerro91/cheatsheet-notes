@@ -1,4 +1,25 @@
+---
+title: Hashicorp Certified Terraform Associate Foundations
+date: 2023-05-12
+tags: [terraform, tools, automation, infrastructure]
+---
+
 # Hashicorp Certified Terraform Associate Foundations
+---
+
+## Table of Contents
+
+- [[#IaC and Its Benefits]]
+- [[#Terraform Workflow]]
+- [[#Installation]]
+- [[#Terraform State (State Matters A Lot!)]]
+- [[#Accessing and Using Terraform Modules]]
+- [[#Built-In Functions]]
+- [[#Terraform fmt, taint, and import commands]]
+- [[#Benefits of Sentinel (Enterprise)]]
+  
+---
+
 
 ## Chapter - 2
 

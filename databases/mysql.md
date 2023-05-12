@@ -1,13 +1,20 @@
 # MySQL
 ---
+This is a cheatsheet for mysql
 
-## User
+## Related Documents
+---
+[[backup-strategies]]
+
+## Usage 
+---
+
+### User
 
 #### Select all users
 ```mysql
 SELECT User, Host FROM mysql.user;
 ```
-
 
 #### Show grants of a user
 
@@ -29,7 +36,7 @@ ALTER USER 'userName'@'localhost' IDENTIFIED BY 'New-Password-Here';
 ALTER USER 'userName'@'%' IDENTIFIED BY 'New-Password-Here';
 ```
 
-## Grants & Privileges
+### Grants & Privileges
 
 #### Revoking access to users
 ```mysql

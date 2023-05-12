@@ -1,3 +1,9 @@
+---
+title: Admin Guide to Bash Scripting
+date: 2023-05-12
+tags: [bash, scripting, linux]
+---
+
 # Admin Guide to Bash Scripting
 
 ## Chapter 2 - Basics
@@ -34,7 +40,7 @@ Redirecting both stdin (1) and stderr (2):
 - `tr`: translates characters
 - `head/tail`: outputs the first/last few lines of a file
 - `sed`: stream editor: more powerful than tr as a char translator
-- `awk`: an entire programming lang designed for constructing filters. Very powerful and complex.
+- [`awk`](linux/awk.md): an entire programming lang designed for constructing filters. Very powerful and complex.
 
 #### Demoggification (or UUOC: Userless Use of Cat)
 

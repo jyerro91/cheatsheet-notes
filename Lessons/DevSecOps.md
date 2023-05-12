@@ -300,7 +300,6 @@ Commit -> Build -> Test -> Stage -> Deploy
 ##### Traceability and Rollback
 
 - `Traceability` refers to the process of communicating information about threat detection back to stakeholders, including the development team.
-
 - when release management and source code control is establish to track major releases and sub-releases of applications, vulnerability reporting can be traced back to the specific source code being evaluated.
 
 - Alerts and threat detection can be used to automatically `rollback` vulnerable systems when new releases appear flawed.
