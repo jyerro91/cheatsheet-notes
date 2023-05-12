@@ -1,6 +1,8 @@
-# MySQL Cheatsheet
+# MySQL
+---
 
 ## User
+
 #### Select all users
 ```mysql
 SELECT User, Host FROM mysql.user;

@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "37d00b0eb779b7e7",
+        "id": "0e9acf1325719e6d",
         "type": "tabs",
         "children": [
           {
-            "id": "9cc16416219b8f0b",
+            "id": "d0879a335f1c7368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trading/Trading Strategies.md",
+                "file": "databases/backup-strategies/mysqldump.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trading/Trading Strategies.md",
+                "file": "databases/backup-strategies/mysqldump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trading/Trading Strategies.md",
+                "file": "databases/backup-strategies/mysqldump.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trading/Trading Strategies.md"
+                "file": "databases/backup-strategies/mysqldump.md"
               }
             }
           }
@@ -146,12 +147,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9cc16416219b8f0b",
+  "active": "d0879a335f1c7368",
   "lastOpenFiles": [
+    "databases/Offsite backup of mysql database.md",
+    "databases/backup-strategies/mysqldump.md",
+    "linux/Linux Clean up.md",
+    "Networking/Load balancing in Layer 4 vs Layer 7.md",
+    "databases/mysql.md",
+    "databases/configurations/my.cnf.md",
+    "mysql.md",
+    "databases/configurations",
+    "databases/backup-strategies/xtrabackup.md",
+    "databases/Backup mysql database with xtrabackup.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "databases/backup-strategies",
+    "Dev Tooling/Dev Tooling.md",
+    "AWS/Install AWS CLI 2.md",
+    "2023-05-11.md",
+    "linux/distros/opensuse.md.md",
+    "linux/distros",
+    "Lessons/AWS - Essentials.md",
+    "Trading/Trading Strategies.md",
     "Trading/Beginner _ Noob Series.md",
-    "Unknown 2/Untitled.md",
-    "Databases/Offsite backup of mysql database.md",
-    "Databases/Backup database with mysqldump.md",
-    "AWS/Install AWS CLI 2.md"
+    "Unknown 2/Untitled.md"
   ]
 }

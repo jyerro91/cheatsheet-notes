@@ -1,4 +1,7 @@
-#.my.cnf
+# .my.cnf
+---
+This is the main configuration to customize connection and other related to [mysql](databases/mysql.md). To use this create a .my.cnf your use home folder.
+
 ```conf
 #.my.cnf
 [mysqldump]
@@ -6,27 +9,27 @@ default-character-set=utf8mb4
 single-transaction
 
 [clientdoprod]
-host = db-mysql-sgp1-45396-do-user-2773464-0.db.ondigitalocean.com
+host = ****.ondigitalocean.com
 user = doadmin
-password = w7lanxnfzq8bja8q
+password = ****
 port = 25060
 
 [clientawsdev]
-host = imgbsdevdb01.ctqgnm8dfdyn.ap-southeast-1.rds.amazonaws.com
+host = ****.rds.amazonaws.com
 user = admin
-password = xUwghwqvzOFsfNFjoYzg
+password = ****
 port = 3306
 
 [clientawsstag]
-host = imgbsstagdb01.ctqgnm8dfdyn.ap-southeast-1.rds.amazonaws.com
+host = ****.rds.amazonaws.com
 user = admin
-password = laueJxdPpjUgLyweQQn2
+password = ****
 port = 3306
 
 [clientawsprod]
-host = imgbsproddb01.ctqgnm8dfdyn.ap-southeast-1.rds.amazonaws.com
+host = ****.rds.amazonaws.com
 user = admin
-password = Gz6jFRLV4ImexJAl0d0y
+password = ****
 port = 3306
 ```
 
