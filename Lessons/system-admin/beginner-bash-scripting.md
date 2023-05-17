@@ -32,6 +32,7 @@ Redirecting both stdin (1) and stderr (2):
 ```bash
 2>&1 filename.txt
 ```
+
 #### Utility Commands
 - `sort`: sorts input and prints a sorted output
 - `uniq`: removes duplicate lines of data from the input stream
@@ -40,7 +41,7 @@ Redirecting both stdin (1) and stderr (2):
 - `tr`: translates characters
 - `head/tail`: outputs the first/last few lines of a file
 - `sed`: stream editor: more powerful than tr as a char translator
-- [`awk`](linux/awk.md): an entire programming lang designed for constructing filters. Very powerful and complex.
+- [`awk`](awk.md): an entire programming lang designed for constructing filters. Very powerful and complex.
 
 #### Demoggification (or UUOC: Userless Use of Cat)
 

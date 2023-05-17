@@ -12,7 +12,6 @@ tags: [awk, linux, cli, snippet, sudo, folder-size, file-size, cleanup, sed, mkd
 ---
 - [[#Get Folder File Size]]
 - [[#Linux Clean up]]
-- 
 
 
 #### [SED](sed) Command

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lessons/hashicorp-certified-terraform-associate-foundations.md",
+                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lessons/hashicorp-certified-terraform-associate-foundations.md",
+                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lessons/hashicorp-certified-terraform-associate-foundations.md",
+                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lessons/hashicorp-certified-terraform-associate-foundations.md"
+                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md"
               }
             }
           },
@@ -159,36 +159,36 @@
   },
   "active": "edc2cc06cb2682f3",
   "lastOpenFiles": [
+    "databases/backup-strategies/xtrabackup.md",
+    "databases/backup-strategies/mysqldump.md",
+    "databases/backup-strategies/backup-strategies.md",
+    "databases/mysql.md",
+    "Lessons/system-admin/defining-backup-strategies.md",
+    "Lessons/system-admin/beginner-bash-scripting.md",
+    "Lessons/hashicorp-certified-terraform-associate-foundations.md",
+    "Linux/awk.md",
+    "Linux/distros/opensuse.md.md",
+    "Linux/tips-tricks.md",
+    "ssh.md",
+    "README.md",
+    "Linux/ssh-keys.md",
+    "kubernetes/intro.md",
+    "Lessons/Load balancing in Layer 4 vs Layer 7.md",
+    "Lessons/System Admin Basic.md",
+    "Linux/sed.md",
     "linux/awk.md",
     "lessons/system-admin/beginner-bash-scripting.md",
     "lessons/system-admin/defining-backup-strategies.md",
     "mysql.md",
-    "databases/backup-strategies/backup-strategies.md",
     "linux/tips-tricks.md",
     "_templates/snippet-template.md",
-    "databases/backup-strategies/xtrabackup.md",
-    "databases/mysql.md",
     "lessons/DevOps Monitoring Deep Dive.md",
-    "databases/backup-strategies/mysqldump.md",
     "lessons/system-admin",
     "lessons/Load balancing in Layer 4 vs Layer 7.md",
     "lessons/Grafana.md",
-    "lessons/DevSecOps.md",
-    "lessons/aws/essentials-course.md",
-    "lessons/aws/vpc.md",
-    "lessons/aws/aws.md",
-    "lessons/aws/cloud-practitioner-course.md",
     "lessons/topics/azure",
     "lessons/aws",
-    "linux/new-tool.md",
-    "test.md",
     "_templates",
-    "linux/Untitled.md",
-    "DevSecOps/All about SSH Keys.md",
-    "linux/distros/opensuse.md.md",
-    "linux/sed.md",
-    "linux/Linux Clean up.md",
-    "linux/How to get folder_file size.md",
     "lessons/topics",
     "databases/configurations",
     "Untitled 1.canvas",
