@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "adc20f32bb45926d",
+        "id": "530f7dd9796337b9",
         "type": "tabs",
         "children": [
           {
-            "id": "edc2cc06cb2682f3",
+            "id": "d2bd24fd6c7ebb51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md",
+                "file": "lessons/azure/fundamentals-course.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md",
+                "file": "lessons/azure/fundamentals-course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md",
+                "file": "lessons/azure/fundamentals-course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lessons/hashicorp-certified-terraform-associate-foundations.md"
+                "file": "lessons/azure/fundamentals-course.md"
               }
             }
           },
@@ -157,35 +157,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "edc2cc06cb2682f3",
+  "active": "0f9f04d7d6560fc5",
   "lastOpenFiles": [
+    "lessons/system-admin/beginner-bash-scripting.md",
+    "lessons/leadership/fundamentals.md",
+    "lessons/azure/fundamentals/cloud-service-types.md",
+    "lessons/azure/assets/shared-responsiblity-model.PNG",
+    "lessons/azure/fundamentals/cloud-computing.md",
+    "lessons/azure/fundamentals-course.md",
+    "Pasted image 20230524094626.png",
+    "lessons/azure/assets",
+    "lessons/azure/fundamentals/cloud-benefits.md",
+    "jdlkja.md",
+    "lessons/azure/fundamentals",
+    "lessons/Jenkins Fundamentals.md",
+    "lessons/Load balancing in Layer 4 vs Layer 7.md",
+    "lessons/obsidian.md",
+    "lessons/DevSecOps.md",
+    "lessons/Grafana.md",
+    "lessons/Useful Monitoring Commands.md",
+    "lessons/leadership",
+    "README.md",
+    "ssh.md",
+    "lessons/azure/login.md",
+    "lessons/hashicorp-certified-terraform-associate-foundations.md",
     "databases/backup-strategies/xtrabackup.md",
     "databases/backup-strategies/mysqldump.md",
     "databases/backup-strategies/backup-strategies.md",
     "databases/mysql.md",
-    "Lessons/system-admin/defining-backup-strategies.md",
-    "Lessons/system-admin/beginner-bash-scripting.md",
-    "Lessons/hashicorp-certified-terraform-associate-foundations.md",
+    "lessons/system-admin/defining-backup-strategies.md",
     "Linux/awk.md",
     "Linux/distros/opensuse.md.md",
     "Linux/tips-tricks.md",
-    "ssh.md",
-    "README.md",
-    "Linux/ssh-keys.md",
-    "kubernetes/intro.md",
-    "Lessons/Load balancing in Layer 4 vs Layer 7.md",
-    "Lessons/System Admin Basic.md",
-    "Linux/sed.md",
-    "linux/awk.md",
-    "lessons/system-admin/beginner-bash-scripting.md",
-    "lessons/system-admin/defining-backup-strategies.md",
-    "mysql.md",
-    "linux/tips-tricks.md",
-    "_templates/snippet-template.md",
-    "lessons/DevOps Monitoring Deep Dive.md",
     "lessons/system-admin",
-    "lessons/Load balancing in Layer 4 vs Layer 7.md",
-    "lessons/Grafana.md",
     "lessons/topics/azure",
     "lessons/aws",
     "_templates",
@@ -193,7 +197,6 @@
     "databases/configurations",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "databases/backup-strategies",
-    "linux/distros"
+    "databases/backup-strategies"
   ]
 }
