@@ -5,7 +5,7 @@
 ---
 
 - [[#Cloud Fundamentals]]
-- 
+- [[#Azure Architecture]]
 
 
 
@@ -17,3 +17,19 @@
 ![[cloud-benefits]]
 
 ![[cloud-service-types]]
+
+
+> [!summary] Summary
+> The shared responsibility model
+> Public, Private and Hybrid Cloud
+> Benefits of Cloud Computing
+> Cloud Service Types
+
+
+## Azure Architecture
+---
+
+![[architectural-components]]
+
+
+ds

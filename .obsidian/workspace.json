@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "530f7dd9796337b9",
+        "id": "651e42bc480db2f0",
         "type": "tabs",
         "children": [
           {
-            "id": "d2bd24fd6c7ebb51",
+            "id": "6c60c801131e61fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lessons/azure/fundamentals-course.md",
+                "file": "kubernetes/kubecampus.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lessons/azure/fundamentals-course.md",
+                "file": "kubernetes/kubecampus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lessons/azure/fundamentals-course.md",
+                "file": "kubernetes/kubecampus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lessons/azure/fundamentals-course.md"
+                "file": "kubernetes/kubecampus.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,12 +159,30 @@
   },
   "active": "0f9f04d7d6560fc5",
   "lastOpenFiles": [
+    "kubernetes/assets/pods.svg",
+    "kubernetes/assets/nodes.png",
+    "lessons/azure/fundamentals/architectural-components.md",
+    "lessons/aws/essentials-course.md",
+    "lessons/aws/cloud-practitioner-course.md",
+    "kubernetes/kubecampus.md",
+    "kubernetes/assets/control-plane.png",
+    "kubernetes/assets",
+    "kubernetes/New folder",
+    "kubernetes/intro.md",
+    "lessons/azure/fundamentals/compute-services.md",
+    "kubernetes/kubectl-commands.md",
+    "Untitled.md",
+    "lessons/azure/assets/availability-sets.png",
+    "lessons/azure/fundamentals/cloud-computing.md",
+    "lessons/hashicorp-certified-terraform-associate-foundations.md",
+    "lessons/DevOps Monitoring Deep Dive.md",
+    "lessons/azure/fundamentals-course.md",
+    "lessons/azure/assets/mangement-groups.png",
+    "lessons/azure/assets/availability-zones.png",
     "lessons/system-admin/beginner-bash-scripting.md",
     "lessons/leadership/fundamentals.md",
     "lessons/azure/fundamentals/cloud-service-types.md",
     "lessons/azure/assets/shared-responsiblity-model.PNG",
-    "lessons/azure/fundamentals/cloud-computing.md",
-    "lessons/azure/fundamentals-course.md",
     "Pasted image 20230524094626.png",
     "lessons/azure/assets",
     "lessons/azure/fundamentals/cloud-benefits.md",
@@ -179,24 +197,12 @@
     "lessons/leadership",
     "README.md",
     "ssh.md",
-    "lessons/azure/login.md",
-    "lessons/hashicorp-certified-terraform-associate-foundations.md",
-    "databases/backup-strategies/xtrabackup.md",
-    "databases/backup-strategies/mysqldump.md",
-    "databases/backup-strategies/backup-strategies.md",
-    "databases/mysql.md",
-    "lessons/system-admin/defining-backup-strategies.md",
-    "Linux/awk.md",
-    "Linux/distros/opensuse.md.md",
-    "Linux/tips-tricks.md",
     "lessons/system-admin",
     "lessons/topics/azure",
     "lessons/aws",
     "_templates",
     "lessons/topics",
-    "databases/configurations",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "databases/backup-strategies"
+    "Untitled.canvas"
   ]
 }
