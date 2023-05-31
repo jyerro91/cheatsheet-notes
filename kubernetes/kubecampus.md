@@ -1,6 +1,12 @@
 ## Kubecampus
 ---
 
+- **kubelet** : The primary agent that runs on a kubernetes node and communicates with the control plane to issue commands to this node and report status
+- **kubeadm** : A tool that performs the action necessary to build up a Kubenertes cluster
+- **kubectl** : The command line tool that lets you control kubernetes clusters and issue commands to the api server
+- **Docker Engine** : A container engine used by Kubernetes to run containers
+
+
 ## Kubernetes Concepts and Building a K8s Cluster
 ---
 
@@ -26,7 +32,7 @@ The “Control Plane” refers to a collection of processes managing the cluster
 
 ## Kubernetes Nodes
 
-The nodes in a cluster are the machines (VMs, physical servers, etc) that run your applications and cloud workflows. The Kubernetes Control Plane controls each node; you’ll rarely interact with nodes directly.
+The *nodes* in a cluster are the *machines (VMs, physical servers, etc)* that run your applications and cloud workflows. The Kubernetes Control Plane controls each node; you’ll rarely interact with nodes directly.
 
 ![[nodes.png]]
 
@@ -88,3 +94,59 @@ Namespaces are a way to divide cluster resources between multiple users (via res
 >[!tip]
 >It is not necessary to use multiple namespaces just to separate slightly different resources, such as different versions of the same software: use labels to distinguish resources within the same namespace.
 
+---
+
+On-disk files in a Container are ephemeral, which presents some problems for non-trivial applications when running in Containers. First, when a Container crashes, **kubelet** will restart it, but the files will be lost - the Container starts with a clean state. Second, when running Containers together in a **Pod** it is often necessary to share files between those Containers. The Kubernetes **Volume** abstraction solves both of these problems.
+
+At its core, a **Volume** is just a directory, possibly with some data in it, which is accessible to the Containers in a **Pod**. How that directory comes to be, the medium that backs it, and the contents of it are determined by the particular volume type used.
+
+A Kubernetes **Volume** has an explicit lifetime - the same as the **Pod** that encloses it. Consequently, a volume outlives any Containers that run within the **Pod**, and data is preserved across Container restarts. When a **Pod** ceases to exist, the volume will cease to exist too. Kubernetes supports many types of **Volumes**, and a Pod can use any number of them simultaneously.
+
+Some examples of **Volumes** are:
+
+- emptyDir - just an empty directory
+- azureDisk - a disk on Microsoft Azure
+- hostPath - a directory that lives on the node itself
+- nfs - an exported NFS share
+
+but there are many more. Take a look [here](https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes).
+
+---
+
+A **Job** creates one or more **Pods** and ensures that a specified number of them successfully terminate.
+
+As **Pods** successfully complete, the **Job** tracks the successful completions. When a specified number of successful completions is reached, the **Job** itself is complete. Deleting a **Job** will clean up the **Pods** it created.
+
+A simple case is to create one **Job** object in order to reliably run one **Pod** to completion. The **Job** object will start a new **Pod** if the first **Pod** fails or is deleted (for example due to a node hardware failure or a node reboot).
+
+A **Job** can also be used to run multiple **Pods** in parallel.
+
+---
+
+A **DaemonSet** ensures that all (or some) Nodes run a copy of a **Pod**.
+
+As nodes are added to the cluster, **Pods** are added to them. As nodes are removed from the cluster, those **Pods** are garbage collected. Deleting a **DaemonSet** will clean up the **Pods** it created.
+
+Some typical uses of a **DaemonSet** are:
+
+- running a cluster storage daemon, such as `glusterd` and `ceph` on each node.
+- running a logs collection daemon on every node, such as `fluentd` or `logstash`.
+- running a node monitoring daemon on every node, such as `Prometheus Node Exporter`, `collectd`, `Datadog agent`, `New Relic agent`, or `Ganglia gmond`.
+
+---
+
+A **StatefulSet** manages the **deployment** and scaling of a set of **Pods**, and provides guarantees about the ordering and uniqueness of these **Pods**.
+
+**StatefulSets** are valuable for applications that require one or more of the following.
+
+- Stable, unique network identifiers.
+- Stable, persistent storage.
+- Ordered, graceful deployment and scaling.
+- Ordered, graceful deletion and termination.
+- Ordered, automated rolling updates.
+
+Use cases for **StatefulSets** are:
+
+- Deploying a clustered resource (e.g. Cassandra, Elasticsearch)
+- Applications that somehow depend on each other
+ 
