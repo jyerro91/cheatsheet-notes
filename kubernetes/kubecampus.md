@@ -149,4 +149,169 @@ Use cases for **StatefulSets** are:
 
 - Deploying a clustered resource (e.g. Cassandra, Elasticsearch)
 - Applications that somehow depend on each other
- 
+
+
+## Kubernetes Application Lab
+---
+
+**Containers** allow you to package your application and its dependencies together into one succinct manifest that can be version controlled, allowing for easy replication of your application across developers on your team and machines in your cluster.
+
+**Containers** work best for service based architectures. As opposed to monolithic architectures, where every piece of the application is intertwined — from IO to data processing to rendering — service based architectures separate these into separate components.
+
+From an application point of view, instantiating an image (creating a container) is similar to instantiating a process like a service or a web app.
+
+---
+
+A **stateless** app is an application program that does not save client data generated in one session for use in the next session with that client e.g. print services, microservices.
+
+In **stateful** applications, the state is recorded. By state, we mean any changeable occurrence that includes internal operations, interactions with other applications, environment variables, user-set preferences, memory content, and temporary storage. The data that such applications store depends on their types and other factors under which they operate. Usually, a stateful application is able to record your preferences, track your window size and location, and memorize the files that you have recently opened. Some known examples of stateful applications include MongoDB, Cassandra, and MySQL.
+
+---
+
+A **Container Image**, in its simplest definition, is a file which is pulled down from a Registry Server and used locally as a mount point when starting Containers. A container is the runtime instantiation of an image.
+
+A **Container Engine** is a piece of software that accepts user requests, including command line options, pulls images, and from the end user's perspective runs the container.
+
+There are many container engines, including Docker, RKT, and CRI-O that provide the runtime environment for the applications inside the container.
+
+You can run them locally or on a remote server.
+
+**Docker** containers that run on Docker Engine are lightweight, portable and secure. They run everywhere: Linux, Windows, Data center, Cloud, Serverless, etc.
+
+[Docker Build](https://docs.docker.com/develop/) is at the core of what makes Docker so popular. It allows you to easily create and share portable Docker container images using open standards and create images for [multiple CPU and OS architectures](https://github.com/docker-library/official-images#architectures-other-than-amd64) and share them in your [private registry](https://www.docker.com/products/image-registry) or on [Docker Hub](https://hub.docker.com/).
+
+[Docker Desktop](https://www.docker.com/products/docker-desktop) is an application for MacOS and Windows machines for the building and sharing of containerized applications and microservices.
+
+[Docker Compose](https://docs.docker.com/compose/) is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.
+
+---
+
+The Kubernetes storage architecture is based on [Volumes](https://kubernetes.io/docs/concepts/storage/volumes/) as a central abstraction.
+
+**Volumes** can be persistent or non-persistent, which allows containers to request storage resources dynamically, using a mechanism called volume claims.
+
+#### StorageClasses
+
+Kubernetes users can define StorageClasses and assign [PVs](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) to them. Each [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes/) represents a type of storage and uses provisioners that determines what volume plugin is used for provisioning PVs.
+
+A [StorageClass](https://kubernetes.io/docs/concepts/storage/storage-classes/) provides a way for administrators to describe the "classes" of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators. Kubernetes itself is unopinionated about what classes represent. This concept is sometimes called "profiles" in other storage systems
+
+Check the current storage classes created in the cluster
+```shell
+kubectl get storageclasses
+```
+
+
+#### Persistent Volumes (PV)
+
+A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. This API object captures the details of the implementation of the storage, be that NFS, iSCSI, or a cloud-provider-specific storage system.
+
+A [PersistentVolume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistent-volumes) can be mounted on a host in any way supported by the resource provider.
+
+Providers will have different capabilities and each PV's access modes are set to the specific modes supported by that particular volume.
+
+For example, NFS can support multiple read/write clients, but a specific NFS PV might be exported on the server as read-only.
+
+Each PV gets its own set of access modes describing that specific PV's capabilities.
+
+The access modes are:
+
+- ReadWriteOnce -- the volume can be mounted as read-write by a single node
+- ReadOnlyMany -- the volume can be mounted read-only by many nodes
+- ReadWriteMany -- the volume can be mounted as read-write by many nodes
+
+We are going to create a PersistentVolume of 10Gi, called 'myvolume'.
+
+Make it have accessMode of 'ReadWriteOnce' and 'ReadWriteMany', storageClassName 'local-path', mounted on hostPath '/etc/foo'.
+
+A hostPath PersistentVolume uses a file or directory on the Node to emulate network-attached storage.
+
+Let's create the directory that we are going to use in this example:
+
+```yaml
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: myvolume
+spec:
+  storageClassName: local-path
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+    - ReadWriteMany
+  hostPath:
+    path: /etc/foo
+```
+
+#### Persistent Volume Claims
+
+A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources. Pods can request specific levels of resources (CPU and Memory). Claims can request specific size and access modes (e.g., they can be mounted ReadWriteOnce, ReadOnlyMany or ReadWriteMany)
+
+Pods cannot access Persistent Volumes directly, we need to claim storage capacity for our applications by binding the request for capacity to PVs using [PersistentVolumeClaims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#persistentvolumeclaims).
+
+We are going to create a PersistentVolumeClaim, called 'mypvc', with a request of 4Gi and an accessMode of ReadWriteOnce.
+
+```yaml
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: mypvc
+spec:
+  storageClassName: local-path
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 4Gi
+```
+
+---
+
+
+### Introduction to Kubestr
+
+## Kubestr
+
+Kubestr is a collection of tools to discover, validate and evaluate your kubernetes storage options.
+
+As adoption of Kubernetes grows so have the persistent storage offerings that are available to users. The introduction of [CSI](https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/) (Container Storage Interface) has enabled storage providers to develop drivers with ease. In fact there are around a 100 different CSI drivers available today. Along with the existing in-tree providers, these options can make choosing the right storage difficult.
+
+Kubestr can assist in the following ways:
+
+- Identify the various storage options present in a cluster.
+- Validate if the storage options are configured correctly.
+- Evaluate the storage using common benchmarking tools like FIO.
+
+## Using Kubestr
+
+To install the tool
+
+- Download the latest release:
+    
+    `curl -sLO https://github.com/kastenhq/kubestr/releases/download/v0.4.17/kubestr-v0.4.17-linux-amd64.tar.gz`
+    
+- Unpack the tool and make it an executable chmod +x kubestr.
+    
+    `tar -xvzf kubestr-v0.4.17-linux-amd64.tar.gz -C /usr/local/bin chmod +x /usr/local/bin/kubestr`
+    
+
+To discover available storage options: Run `kubestr`
+
+To run an FIO test
+
+Using `kubestr` we can test sequential read and write speeds which are expected to be high.
+
+Random reads and writes can be tested as well. Moreover, random writes separates good drives from the bad ones.
+
+- Copy the test specification:
+    
+    `cat <<'EOF'>ssd-test.fio [global] bs=4k ioengine=libaio iodepth=1 size=1g direct=1 runtime=10 directory=/ filename=ssd.test.file [seq-read] rw=read stonewall  [rand-read] rw=randread stonewall  [seq-write] rw=write stonewall  [rand-write] rw=randwrite stonewall EOF`
+    
+- Run the following command to start the test
+    
+    `kubestr fio -f ssd-test.fio -s local-path`
+    
+- Additional options like `--size` and `--fiofile` can be specified.
+    
+- For more test examples visit our [FIO](https://github.com/axboe/fio/tree/master/examples) page.

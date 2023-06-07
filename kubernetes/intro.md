@@ -1,6 +1,7 @@
 # Kubernetes
 ---
 
+
 ## Kubernetes Components
 ---
 
@@ -170,6 +171,5 @@ spec:
 - This tool will create necessary DNS records in your externaal DNS servers (like route53, digitalocean, linode etc..)
 - For every hostname that you use in ingress, it'll create a new record to send traffic to your loadbalancer
 - Major DNS provider are supported: Google CloudDNS, Route53, AzureDNS, CloudFlare, DigitalOcean, Linode etc...
-
 
 
