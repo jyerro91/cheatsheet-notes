@@ -4,23 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "651e42bc480db2f0",
+        "id": "d3b0feb5a5ec5c6c",
         "type": "tabs",
         "children": [
+          {
+            "id": "f9d48077978f79c8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
           {
             "id": "6c60c801131e61fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/kubecampus.md",
+                "file": "lessons/azure/fundamentals/governance-compliance.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/kubecampus.md",
+                "file": "lessons/azure/fundamentals/governance-compliance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/kubecampus.md",
+                "file": "lessons/azure/fundamentals/governance-compliance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes/kubecampus.md"
+                "file": "lessons/azure/fundamentals/governance-compliance.md"
               }
             }
           },
@@ -157,13 +166,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c60c801131e61fa",
+  "active": "0f9f04d7d6560fc5",
   "lastOpenFiles": [
-    "kubernetes/helm.md",
-    "kubernetes/kubecampus.md",
+    "lessons/azure/fundamentals/architectural-components.md",
     "lessons/leadership/fundamentals.md",
-    "kubernetes/custom-resource-definitions.md",
+    "lessons/azure/fundamentals/compute-services.md",
+    "lessons/azure/fundamentals/governance-compliance.md",
+    "kubernetes/kubectl.md",
+    "kubernetes/kubernetes-volumes.md",
+    "lessons/hashicorp-certified-terraform-associate-foundations.md",
     "kubernetes/kubernetes-clusters.md",
+    "kubernetes/kubecampus.md",
+    "kubernetes/helm.md",
+    "kubernetes/custom-resource-definitions.md",
     "kubernetes/intro.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -172,16 +187,12 @@
     "lessons/azure/fundamentals-course.md",
     "kubernetes/assets/pods.svg",
     "kubernetes/assets/nodes.png",
-    "lessons/azure/fundamentals/architectural-components.md",
     "lessons/aws/essentials-course.md",
     "lessons/aws/cloud-practitioner-course.md",
     "kubernetes/assets/control-plane.png",
     "kubernetes/assets",
     "kubernetes/New folder",
-    "lessons/azure/fundamentals/compute-services.md",
-    "kubernetes/kubectl-commands.md",
     "lessons/azure/assets/availability-sets.png",
-    "lessons/hashicorp-certified-terraform-associate-foundations.md",
     "lessons/DevOps Monitoring Deep Dive.md",
     "lessons/azure/assets/mangement-groups.png",
     "lessons/azure/assets/availability-zones.png",
@@ -195,8 +206,6 @@
     "lessons/azure/fundamentals",
     "lessons/Jenkins Fundamentals.md",
     "lessons/Load balancing in Layer 4 vs Layer 7.md",
-    "lessons/obsidian.md",
-    "lessons/DevSecOps.md",
     "lessons/leadership",
     "lessons/system-admin",
     "lessons/topics/azure",

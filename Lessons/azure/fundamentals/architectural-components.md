@@ -7,6 +7,9 @@
 > [!abstract] 
 > *Azure offers more global regions than any other cloud provider with 60+ regions representing over 140 countries*
 
+- Areas of the world where Azure has a **set of datacenters** (min 3 in a set)
+- Usually regions are connected to another region to make region pair
+- Region pairs have highest speed connections and special treatment during Azure updates
 - Regions are made up of one or more datacenters in close proximity
 - Provide flexibility and scale to reduce customer latency
 - Preserve data residency with a comprehensive compliance offering
@@ -20,6 +23,19 @@
 - Connected through private fiber-optic networks
 
 ![[availability-zones.png]]
+
+### Three Types of AZ Services
+
+- **Zonal Services**
+	- You can choose a specific AZ to deploy the service to
+	- You then should deploy duplicate service to another zone to achieve resiliency (e.g VM)
+- **Zone-Redundant Services**
+	- Automatically deployed across zones for you
+	- No need to be configure (e.g Azure SQL)
+- **Always Available Services**
+	- These are global servicecs and microsoft takes care of the ensuring that they are always on
+	- Also called "non-regional services" (e.g Azure Portal, Azure AD)
+
 
 ## Region Pairs
 ---

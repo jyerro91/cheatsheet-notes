@@ -106,3 +106,92 @@ The Emotional level deals with feelings and emotions which may arise during conv
 3. Saying what the questions or comments from others do to you
 4. Asking how the last comment makes them feel
 5. Testing whether the others feel safe to discuss a point now
+
+## Listen with presence
+---
+
+**Fixing**  
+While listening to someone share their situation, I thought about how to solve their problem, giving them potential solutions that may fix their situation. E.g. _‘Hey, have you tried ...’_
+
+  
+**Correcting**  
+While listening to someone, I corrected what they were saying. I focused on when they were wrong or gave them points of improvement or criticism.
+
+  
+**Befriending**  
+While listening to someone, I did so with the intention of befriending them. I tried to find out what I could say or how I could say certain things to make sure that they would like me.
+
+  
+**Comforting**  
+While listening to someone, I primarily focused on comforting them rather than their actual message. I was trying to find out how they want to be taken care of and then responding to them making really sure that they know that I care for them and am there to comfort them.
+
+  
+**Avoiding Conflict**  
+While listening to someone, I avoided interacting more in depth due to possible conflict. I stepped back from the conversation as much as possible and responded silently with smiles and nods.
+
+  
+**Multi-tasking**  
+While listening to someone, I tried to fit them in between doing other stuff, either by multi-tasking while they were talking or thinking about other things while they talk. I answered with small gestures like nodding or comments such as _‘I’m listening, continue’._
+
+  
+**Knowing**  
+While listening to someone, I felt like I already knew what they were talking about and had thoughts like _‘I already know this’_ or _‘Tell me something I don't know’ going through my head'._
+
+  
+**Debating**  
+While listening to someone, I played the devil’s advocate. I started debates on whatever they said and was sceptical of their message.
+
+  
+**Selecting**  
+While listening to someone, I focused only on the parts that excited me and dismissed everything else that was not part of my selection. E.g. _‘That second point is really exciting, how about…’_
+
+  
+**Defending**  
+While listening to someone, I defended the situation they described, regardless of my own point of view, by explaining how they may have misperceived it and then reframing the situation for them. E.g. _‘There’s a probably a good reason for them to react that way’_ or _‘Maybe there is more to it than you know.’_
+
+  
+**Self-Referencing**  
+While listening to someone, I tried to relate what they were saying to myself. I attempted to connect or make their experience fit similar experiences I’ve had and referenced how the two things are similar.
+
+## Navigate challenging conversations
+---
+
+**LETTING IT REST**
+
+- When the issue is unimportant or does not have consequences for your goal
+- When other goals or issues are more important for you and your therefore do not want to get too much involved in this one
+- When you need to let people cool down to have a more productive, open-minded and less emotionally charged conversation at a later point in time
+- When you still want to gather more information before discussing this topic
+- When others are better suited to navigate this challenging conversation as they are i.e. less emotionally involved, have more expertise, etc.
+
+**STANDING YOUR GROUND**
+
+- In case of emergencies when a quick, effective decision has to be made
+- When your goals are unpopular but important, such as cost cutting, or  
+    implementation of rules
+- When your goal is important for ING, such as its financial position, or public image
+- When you are the expert on the topic
+
+**INVESTING IN WIN-WIN**
+
+- When you are aiming for an integrative and creative solution/idea
+- When the goals of both parties are too important to them to ‘find the middle ground’, yet you want to have everyone on board
+- When the goal is to learn, merge knowledge and/or insights from different people
+
+Note: ‘Investing in win-win’ requires a high degree of trust, time and effort.
+
+**FOLLOWING THE OTHER**
+
+- When the other party is the expert
+- When the goal/issue is more important to the other person than to you
+- When harmony and remaining a good working relationship is very important
+- When you want to allow people to experiment and learn from their mistakes
+
+**FINDING THE MIDDLE GROUND**
+
+- When the goals of both parties are important to them, yet not worth damaging the working relationship
+- When you have equal power but completely different goals
+- When you need a temporary solution
+- When ‘investing in win-win’ or ‘standing your ground’ fails, a ‘finding the middle ground’ alignment style can be used as backup
+
+Be careful: ‘Finding the middle ground’ is often seen as an ‘easy way out’, but it is not a long term solution since neither party really gets what they want.
