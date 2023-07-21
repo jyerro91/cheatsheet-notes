@@ -195,3 +195,98 @@ Note: ‘Investing in win-win’ requires a high degree of trust, time and effor
 - When ‘investing in win-win’ or ‘standing your ground’ fails, a ‘finding the middle ground’ alignment style can be used as backup
 
 Be careful: ‘Finding the middle ground’ is often seen as an ‘easy way out’, but it is not a long term solution since neither party really gets what they want.
+
+## Protect your time
+---
+
+### Three Time Killers
+- self
+- technology
+- something
+
+### Self
+Losing precious time does not always have an external cause: your thoughts and behaviour can be a reason for losing time. The ‘Self’ category covered having smart task lists, tackling procrastination and avoiding multi-tasking.
+
+- Smark task lists
+> Try to choose as few systems (on/offline) as possible, where you gather all your to do’s. Make sure each to-do is clearly formulated and has a deadline and estimate on time. Additionally, you can label your to do’s, group them into bigger projects and use different colours for different work areas.
+
+- Procastination
+> Plan to 'eat your frog' (the task that you are dreading) first thing in the morning: get the worst out of your way.
+
+- Multi-tasking
+>It is a myth. Just because you can, does not mean you are being as efficient as you think you are or intend to be.
+
+  
+### Technology
+Technology has made it more difficult than ever not to get distracted. The ‘Technology’ category covered how to handle continuous messages and marking your time effectively.
+
+- **Continuous messages** - Being available 24/7 and responsive can be your downfall and consume a lot of your time. Choose who you want to receive notifications from, use your profile status, make sure you are only in relevant group chats and treat chats like emails (pick a time and place to answer them). 
+
+- **Mark your time** - Make sure to set rules for you and your team to optimize the time you have within a day. Block time for deep work sessions, use a time tracking application to see where you spend your time on and define an urgency rule within the team to highlight when something is really important. And are you on holiday? Disconnect and replace your work apps with mindfulness ones!
+
+### Interaction with others
+Not only you but also others can be distracted. The ‘Interaction with others’ category covered how to deal with others distracting you and how to handle last-minute requests.
+
+#### Last minute urgent requests
+
+*Step 1*
+
+**First of all, it is imperative to ensure you truly understand the request made to you.**
+
+- You might be filling in the blanks already, when someone starts to explain what they need help with.
+- You may end up anticipating more, or on the contrary, less work than the actual request entails. So, listen; make sure you really understand what is being asked.
+
+*Step 2*
+
+**Be clear on the extent to which you can/want to accept the request.**
+
+Communication is key here. Be open in your communication and completely transparent in what you can/cannot do. A good tip is to start with 'Yes, if..' or 'No, unless..' to already lay out what is possible. E.g.
+
+- 'Yes, if we can postpone the deadline to tomorrow afternoon.'
+- 'Of course, if you can plan in an hour to walk me through the information beforehand.'
+- 'Definitely, if you lead the meeting, I can be there to support from my area of expertise.'
+- 'No, unless it has a higher priority than project 'X'.'
+- 'I do not think so, unless you can support me with resources on this task today.'
+- 'I am not sure that will be possible, unless it can wait until the end of the day.'
+
+*Step 3*
+
+**Explain why. Share the potential effect of a 'yes' on your agenda, and other priorities.**
+
+This is not about listing everything that will happen because of the request made to push the person in front of you away. Instead, it is again about being transparent on what the consequences will be.
+
+  
+Current projects may be affected; is this acceptable? Other priorities may be pushed which affect X number of people; is the request still more important than project 'X'?
+
+  
+By being clear on the consequences, both directly towards you but also towards others it can help put the request into perspective and make it debatable on whether or not it is as urgent as proposed.
+
+*Step 4*
+
+**Think of creative solutions & alternatives and/or give explicit conditions.**
+
+Finally, it is time to decide on the solution.
+
+Be creative, think outside the box and if need be, discuss alternatives. E.g. maybe someone in a similar role can be of support.
+
+And lastly, be explicitly detailed when it comes to the conditions. If you, for example, agree to follow along to a meeting but not lead, be explicit on this so that there is no confusion in the meeting itself.
+
+*Summary:* 
+
+- **Distraction by others** - Direct when and where your time is used! Find a quiet space where you can sit to focus, cluster your answers to questions, let others know what times you are available for questions and stand up from your desk if someone comes to you with a request.
+
+- **Last-minute urgent requests** - When an urgent request comes up it is important to get aligned on the task at hand. Make sure you understand what it means to accept this request, share the potential consequence it has on your agenda/ other priorities and be clear on the extent you can/want to accept the request. Are you thinking about saying yes? Give explicit conditions. Are you thinking about saying no? Think of creative solutions and alternatives.
+
+## Use the ‘Never say no’ mode
+
+**Your mission**  
+This week whenever someone gives you/your team a task, take a moment to run through the ‘Never say no’ model. Start by clarifying what the task that is requested entails. When you got the first step under control, add on the second and so on.
+
+  
+**Examples**  
+_‘Could you check this document and send me your ideas?'_  
+_‘So, you want me to read this document, think of ideas and send you 5 concrete_ _suggestions in a document?'_
+
+  
+**Why**  
+Rephrasing a task and giving more detail to the request helps clarify, to both you and the requester, how much work the task actually entails. It can help identify vagueness in the initial request and by having more information it will be easier to prioritise and plan.

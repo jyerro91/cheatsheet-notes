@@ -8,28 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9d48077978f79c8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "6c60c801131e61fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lessons/azure/fundamentals/governance-compliance.md",
+                "file": "lessons/leadership/fundamentals.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lessons/azure/fundamentals/governance-compliance.md",
+                "file": "lessons/leadership/fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lessons/azure/fundamentals/governance-compliance.md",
+                "file": "lessons/leadership/fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lessons/azure/fundamentals/governance-compliance.md"
+                "file": "lessons/leadership/fundamentals.md"
               }
             }
           },
@@ -166,10 +157,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0f9f04d7d6560fc5",
+  "active": "6c60c801131e61fa",
   "lastOpenFiles": [
-    "lessons/azure/fundamentals/architectural-components.md",
+    "lessons/typescript.md",
+    "lessons/Jenkins Fundamentals.md",
     "lessons/leadership/fundamentals.md",
+    "lessons/azure/fundamentals/architectural-components.md",
     "lessons/azure/fundamentals/compute-services.md",
     "lessons/azure/fundamentals/governance-compliance.md",
     "kubernetes/kubectl.md",
@@ -204,8 +197,6 @@
     "lessons/azure/fundamentals/cloud-benefits.md",
     "jdlkja.md",
     "lessons/azure/fundamentals",
-    "lessons/Jenkins Fundamentals.md",
-    "lessons/Load balancing in Layer 4 vs Layer 7.md",
     "lessons/leadership",
     "lessons/system-admin",
     "lessons/topics/azure",
